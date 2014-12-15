@@ -16,7 +16,7 @@ namespace ArchitectureTest
                 @"C:\Users\Wes\Document\Sample\Sample\bin\Debug\Sample.dll", //compiled with the target architecture set to 64
                 @"C:\work\tmp\server.dll",  //pulled from the server
                 @"C:\work\tmp\32-bit-developer-box.dll", //pulled from a 32-bit developer box
-                @"C:\work\tmp\ACA.Entity.wes.64.dll" // ran /editbin /largeaddressaware 
+                @"C:\work\tmp\32-bit-developer-box-updated-to-64.dll" // ran /editbin /largeaddressaware 
             };
             foreach(String file in files){
                 Console.Out.WriteLine(file + ":"+ IsLargeAware(file));
